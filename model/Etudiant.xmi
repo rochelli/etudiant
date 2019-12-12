@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Etudiant:Etudiant
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:Etudiant="Etudiant"
+    xsi:schemaLocation="Etudiant etudiant.ecore">
+  <UE Numero="M10701V"
+      Credit="20">
+    <Examen
+        Number="1"
+        Coef="2"
+        Note="8.0"/>
+    <TP Number="1"
+        Coef="1"
+        Note="15.0"/>
+    <TP Number="2"
+        Coef="1"
+        Note="16.0"/>
+  </UE>
+  <UE Numero="M10801V"
+      Credit="40">
+    <Examen
+        Number="1"
+        Coef="1"
+        Note="9.0"/>
+    <Examen
+        Number="2"
+        Coef="1"
+        Note="11.0"/>
+  </UE>
+  <UE Numero="M10901V"
+      Credit="30">
+    <Examen
+        Number="1"
+        Note="12.0"/>
+    <Examen
+        Number="2"
+        Note="10.0"/>
+    <TP Number="1"
+        Note="14.0"/>
+  </UE>
+  <UE Numero="M10601V"
+      Credit="30">
+    <Examen
+        Number="1"
+        Coef="3"
+        Note="8.0"/>
+    <TP Number="1"
+        Coef="1"
+        Note="9.0"/>
+    <TP Number="2"
+        Coef="1"
+        Note="7.0"/>
+  </UE>
+</Etudiant:Etudiant>
